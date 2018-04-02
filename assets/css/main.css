@@ -499,86 +499,12 @@ nav {
 }
 
 .maps {
-    background-image: url("../img/canarias.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 30px 20px;
+    padding: 30px 0px;
 }
 
-.maps .maps-input {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.maps input {
-    padding: 4px 241px 3px 5px;
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
-}
-
-.maps-search {
-    padding: 5px 18px;
-    background: rgb(78, 142, 244);
-    color: white;
-    border: 0;
-    cursor: pointer;
-}
-
-.maps-search:hover {
-    background-color: rgb(5, 70, 175);
-}
-
-.map-cursor {
-    color: red;
-    padding-top: 200px;
-}
-
-.map-navigators {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-top: 50px;
-}
-
-.btn-group.zoom {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5px;
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
-}
-
-.btn-group button {
-    background-color: #fff;
-    border-color: #fff;
-    border-radius: 3px;
-    color: #666666;
-    cursor: pointer;
-    width: 30px;
-    height: 40px;
-}
-
-.btn-group button:hover {
-    background-color: #bdbdbd;
-    color: #fff;
-}
-
-.btn-group.navi {
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 3px;
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
-}
-
-.btn-group.navi img {
-    margin: 0 10px;
-}
-
-.btn-group.navi a {
-    color: #666666;
-}
-
-.maps-dummie svg {
-    color: #f7bb38;
+.maps iframe {
+    width: 100%;
+    height: 500px;
 }
 
 .design h2 {
